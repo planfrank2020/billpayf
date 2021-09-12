@@ -263,6 +263,11 @@ function App() {
             </div>
           </Col>
         </Row>
+        <Row>
+          <Col lg="12" style={{ display: "flex", justifyContent: "center" }}>
+            <img src={logos} alt="logo" width="400px" />
+          </Col>
+        </Row>
       </div>
 
       <div className="social-media">
