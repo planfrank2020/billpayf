@@ -62,6 +62,7 @@ td {
 .contact-item {
   text-align: center;
   margin: 2rem 0;
+  font-weight: bold;
 }
 
 .social-media {

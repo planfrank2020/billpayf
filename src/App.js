@@ -20,6 +20,8 @@ import abhi from "./assets/abhi.png";
 import bhoop from "./assets/bhoop.png";
 import shubham from "./assets/shubham.png";
 import OKLG7C0 from "./assets/OKLG7C0.jpg";
+import india from "./assets/india.png";
+
 import {
   FaUserAlt,
   FaWhatsapp,
@@ -52,21 +54,28 @@ function App() {
       <Container>
         <Row>
           <Col
-            lg="8"
-            sm="8"
+            lg="6"
+            sm="6"
             style={{
               display: "flex",
-              alignItems: "center",
+              alignItems: "flex-start",
               flexDirection: "column",
+              justifyContent: "center",
             }}
           >
             <img src={logos} alt="logo" width="auto" height="50%" />
-            <h2>
+            <h2
+              style={{
+                textJustify: "left",
+                textAlign: "right",
+                fontSize: "2.5rem",
+              }}
+            >
               "Monthly fees
               <br /> collection <br /> hua easy"
             </h2>
           </Col>
-          <Col lg="4" sm="4" style={{ display: "flex", alignItems: "center" }}>
+          <Col lg="6" sm="6" style={{ display: "flex", alignItems: "center" }}>
             <img src={OKLG7C0} alt="logo" width="100%" height="auto" />
           </Col>
         </Row>
@@ -190,16 +199,18 @@ function App() {
           </Row>
         </div>
       </Container>
-      <Row className="stats" style={{ color: "#fff" }}>
-        <Col lg="6" className="stats-item">
-          <h2>5</h2>
-          <p>Partners</p>
-        </Col>
-        <Col lg="6" className="stats-item">
-          <h2>3500+</h2>
-          <p>Users</p>
-        </Col>
-      </Row>
+      <div style={{ width: "100%" }}>
+        <Row className="stats" style={{ color: "#fff" }}>
+          <Col lg="6" sm="6" className="stats-item">
+            <h2>5</h2>
+            <p>Partners</p>
+          </Col>
+          <Col lg="6" sm="6" className="stats-item">
+            <h2>3500+</h2>
+            <p>Users</p>
+          </Col>
+        </Row>
+      </div>
 
       <Container>
         <Row>
@@ -240,7 +251,7 @@ function App() {
       <div className="pricing" style={{ color: "#fff" }}>
         <Row>
           <h2>PRICING</h2>
-          <h1>"Enjoy the first month for free".</h1>
+          <h1>"Enjoy the first month for free"</h1>
           <br />
           <br />
           <p className="price">2999/- for 6 months </p>
@@ -250,7 +261,7 @@ function App() {
       <div className="contact">
         <Row>
           <h2>CONTACT</h2>
-          <h4>Lets get in touch. Send us a message:</h4>
+          <h4>Lets get in touch. Send us a message</h4>
           <Col lg="12" sm="12">
             <div className="contact-item">
               <ImLocation2 /> LUCKNOW, India
@@ -266,6 +277,23 @@ function App() {
         <Row>
           <Col lg="12" style={{ display: "flex", justifyContent: "center" }}>
             <img src={logos} alt="logo" width="400px" />
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12">
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                textAlign: "center",
+                justifyContent: "center",
+              }}
+            >
+              <p style={{ marginRight: 5 }}>
+                BillPay, All Right Reserved, 2021 Made in
+              </p>
+              <img src={india} alt="india" width={35} height={28} />
+            </div>
           </Col>
         </Row>
       </div>
