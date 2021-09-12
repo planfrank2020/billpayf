@@ -188,7 +188,7 @@ function App() {
                     Co-founder & CTO
                   </CardSubtitle>
                   <CardText>
-                    B.Tech-AIT Pune(final year) <br />
+                    B.Tech-AIT Pune <br />
                     Full stack developer
                     <br />
                     <MdEmail /> abhinandans00778@gmail.com
@@ -281,6 +281,9 @@ function App() {
         </Row>
         <Row>
           <Col lg="12">
+            <p style={{ textAlign: "center" }}>
+              Mangekyo Technology Private Limited, All Right Reserved, 2021
+            </p>
             <div
               style={{
                 display: "flex",
@@ -289,9 +292,7 @@ function App() {
                 justifyContent: "center",
               }}
             >
-              <p style={{ marginRight: 5 }}>
-                BillPay, All Right Reserved, 2021 Made in
-              </p>
+              <p style={{ marginRight: 5 }}>Made in</p>
               <img src={india} alt="india" width={35} height={28} />
             </div>
           </Col>
